@@ -1,18 +1,24 @@
-# F29OC-2023-24-CW 
+# Java CPU Task Scheduler Simulator
 
-This project contains: 
- - the stub file for your OS class, 
- - the corresponding Interface,
- - a Main class to allow selective execution of your tests, and
- - a Tests class that contains three example tests.
- 
- 
-# IMPORTANT
-1. You MUST fork this project into your remote repository BEFORE cloning it to your local disc space.
-2. 'Thread safe' and 'synchronized' classes (e.g. those in java.util.concurrent) other than ReentrantLock and Condition, MUST not be used in OS.java.
-3. You MUST not use the keyword 'synchronized', or any other `thread safe` classes or mechanisms   
-or any delays or 'busy waiting' (spin lock) methods in OS.java. 
-4. You must not use any delays such as Thread.sleep() in OS.java.
+## Coursework Project – Operating Systems & Concurrency (Java)
+
+This project was developed as part of a university coursework focused on **Operating Systems** and **Java Concurrency**. The goal was to simulate a **non-preemptive CPU task scheduler**, managing multiple processes on a single-core CPU.
+
+## Project Objective
+
+To implement a CPU scheduling simulation that:
+- Manages tasks in a **non-preemptive** scheduling environment
+- Uses **Java concurrency** to simulate realistic task behavior and timing
+- Demonstrates understanding of **process management**, **thread handling**, and **OS-level scheduling concepts**
+
+## 🔧 Technologies Used
+
+- Java
+- Java Threads & Synchronization
+- OOP principles
+
+
+
 
 
 
